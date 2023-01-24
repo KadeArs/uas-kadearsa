@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+* {
+  transition: all 0.4s ease;
+}
+
+body {
+  font-family: "Zen Antique", serif;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2,
+h3 {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 540;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+a,
+span {
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.head-size {
+  font-size: 2.2rem;
+  border: none;
+}
+
+.navbar-nav ul {
+  justify-content: space-between;
+}
+
+.nav-item a {
+  font-size: 2.2rem;
+  color: white;
+  margin-left: 20px;
+}
+
+
+.hero {
+  background-image: url("./images/header2.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero .title {
+  position: relative;
+  z-index: 3;
+}
+
+.hero h1 {
+  text-shadow: black 1px 3px 6px;
+  font-size: 7.5rem;
+}
+
+.hero h3 {
+  width: 450px;
+  text-align: right;
+  text-shadow: black 1px 3px 6px;
+}
+
+.sale h2 {
+  font-size: 4rem;
+}
+
+.sale h3 {
+  font-size: 3rem;
+}
+
+.sale img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-effect {
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.game-card {
+  background-color: rgb(255, 255, 255);
+}
+
+.game-card h5 {
+  font-size: 2rem;
+}
+
+.game-card p {
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.game-card:hover {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.announce {
+  background-image: url("./images/announce2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.announce h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 3.9rem;
+}
+
+.announce p {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  line-height: 3.9rem;
+}
+
+.conmpany-text-last {
+  position: absolute;
+  top: 70%;
+  left: 7%;
+}
+
+.announce-info .more a {
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  padding: 0.6rem;
+  text-decoration: none;
+}
+
+.announce-info .more a:hover {
+  color: rgb(71, 173, 187);
+  transform: translateX(1rem);
+}
+
+.hardware {
+  width: 50%;
+  height: 25%;
+}
+
+.hardware-card img {
+  width: 640px;
+  height: 220px;
+}
+
+.hardware-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.hardware-card h3 {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  opacity: 0;
+}
+
+.hardware-card:hover img {
+  transform: scale(1.1);
+}
+
+.hardware-card .overlay {
+  position: absolute;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hardware-card:hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: rgb(13, 71, 92);
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.hardware-card:hover h3 {
+  position: absolute;
+  display: block;
+  opacity: 1;
+}
+
+/* contact section */
+.contact {
+  background-image: url("./images/footer2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contact input {
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+
+footer {
+  padding: 8px;
+  background-color: #555;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+
+
+footer a:hover {
+  color: rgb(71, 173, 187);
+}
+

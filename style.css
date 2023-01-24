@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+*{
+    transition: all 0.4 ease;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(./images/landing-background.jpg);
+}
+
+h2,
+h3 {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 540;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+a,
+span {
+  position: relative;
+  z-index: 1;
+}
+
+.head-size a {
+    font-size: 2.5rem;
+    border: none;
+    font-family: "Zen Antique", serif;
+}
+  
+.navbar-nav ul {
+    justify-content: space-between;
+}
+  
+.nav-item a {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+    font-family: "Zen Antique", serif;
+}
+  
+.l-descript h1{
+    color: white;
+    transform: translate(60px,180px);
+    text-align: center;
+}
+.l-descript p{
+    color: white;
+    transform: translate(60px,180px);
+    text-align: center;
+}
+
+.l-descript a{
+    text-decoration: none;
+}
+
+.l-descript .landing-btn{
+  max-width: 280px;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(192, 204, 207, 0.308) 0 8px 18px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate(255px,190px);
+  transition: all .3s;
+}
+
+.l-descript .landing-btn:hover{
+    box-shadow: none;
+    transform: translate(259px, 195px);
+}
+
+.game-img a{
+    cursor:unset;
+}
+
+    
+.main-logo {
+    width: 270px;
+    height: 380px;
+    transform: translate(50%, 40%);
+    border-radius: 10px;
+    transition: 0.25s;
+    box-shadow: rgba(46, 107, 240, 0.4) 5px 5px, rgba(46, 107, 240, 0.3) 10px 10px, rgba(46, 107, 240, 0.2) 15px 15px, rgba(46, 107, 240, 0.1) 20px 20px, rgba(46, 107, 240, 0.05) 25px 25px;
+    cursor: pointer;
+}
+
+.main-logo2 {
+    width: 270px;
+    height: 380px;
+    transform: translate(50%, 40%);
+    border-radius: 10px;
+    transition: 0.25s;
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+    cursor: pointer;
+}
+
+.main-logo3 {
+    width: 270px;
+    height: 380px;
+    transform: translate(50%, 40%);
+    border-radius: 10px;
+    transition: 0.25s;
+    box-shadow: rgba(230, 252, 38, 0.4) 5px 5px, rgba(230, 252, 38, 0.3) 10px 10px, rgba(230, 252, 38, 0.2) 15px 15px, rgba(230, 252, 38, 0.1) 20px 20px, rgba(230, 252, 38, 0.05) 25px 25px;
+    cursor: pointer;
+}
+
+
+.main-logo:hover {
+    box-shadow: none;
+    transform: translate(51%, 41%);
+}
+
+.main-logo2:hover {
+    box-shadow: none;
+    transform: translate(51%, 41%);
+}
+
+.main-logo3:hover {
+    box-shadow: none;
+    transform: translate(51%, 41%);
+}
+
+
